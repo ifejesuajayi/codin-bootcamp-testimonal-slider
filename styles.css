@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  font-family: "Inter", sans-serif;
+  background: url(./images/pattern-curve.svg);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position-y: 100%;
+}
+main {
+  display: flex;
+  align-items: center;
+  min-height: 95vh;
+  background-image: url(./images/pattern-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position-x: 80%;
+  background-position-y: 50%;
+}
+p {
+  font-size: 25px;
+}
+h4 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-image: url(./images/pattern-quotes.svg);
+  background-repeat: no-repeat;
+  background-position-x: 10%;
+  /* background-position-y: 6%; */
+}
+.first-sec {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.second-sec {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  display: none;
+}
+.text {
+  line-height: 2;
+}
+.image-1 {
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+}
+.image-2 {
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+}
+.imageOne{
+  height: 350px;
+  width: 350px;
+  border-radius: 5px;
+  box-shadow: 5px 20px 40px -5px #6c52a7;
+}
+.imageTwo{
+  height: 350px;
+  width: 350px;
+  border-radius: 5px;
+  box-shadow: 5px 20px 40px -5px #6c52a7;
+}
+.tanya-john {
+  height: 350px;
+  width: 350px;
+  border-radius: 5px;
+  box-shadow: 5px 20px 40px -5px #6c52a7;
+}
+.flex-name {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.job {
+  font-size: 16px;
+  color: #ccc;
+}
+button {
+  padding: 0.3rem 0.9rem 0.3rem 0.9rem;
+  border-style: none;
+  cursor: pointer;
+  background: #fff;
+}
+.button-1 {
+  position: absolute;
+  left: 40px;
+  bottom: -16px;
+  display: flex;
+}
+.button-2 {
+  position: absolute;
+  left: 40px;
+  bottom: -16px;
+  display: flex;
+}
+.button{
+  background: #fff;
+  border-radius: 20px;
+  padding: 0.4rem;
+}
+
+.fa-solid {
+  color: darkgrey;
+}
+
+
+/* mobile */
+
+@media (max-width: 800px) {
+  body {
+    font-family: "Inter", sans-serif;
+    background: url(./images/pattern-curve.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 100%;
+  }
+  main{
+    background-image: url(./images/pattern-bg.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: 100%;
+    background-position-y: 2%;
+    min-height: 97vh;
+  }
+  .container{
+    background-image: url(./images/pattern-quotes.svg);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 60%;
+  }
+  .first-sec{
+    flex-direction: column-reverse;
+  }
+  .second-sec{
+    flex-direction: column-reverse;
+  }
+  .tanya-john {
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 5px 20px 40px -5px #6c52a7;
+  }
+  .image-1 {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    margin-bottom: 5rem;
+  }
+  .image-2 {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    margin-bottom: 5rem;
+  }
+  p{
+    font-size: 18px;
+  }
+  .text{
+    text-align: center;
+  }
+  .flex-name{
+    flex-direction: column;
+  }
+  .button-1 {
+    position: absolute;
+    left: 100px;
+    bottom: -16px;
+    display: flex;
+  }
+  .button-2 {
+    position: absolute;
+    left: 100px;
+    bottom: -16px;
+    display: flex;
+  }
+  button {
+    padding: 0.5rem 0.9rem 0.5rem 0.9rem;
+    border-style: none;
+    cursor: pointer;
+    background: #fff;
+  }
+}
